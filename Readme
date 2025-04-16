@@ -1,0 +1,45 @@
+Simulador de Comparación Binaria con Tabla de Verdad
+
+Desarrollo de un programa que permita al usuario ingresar dos números enteros del sistema decimal, los convierta a binario, y luego:
+
+> Compare cada bit usando operaciones lógicas (AND, OR, XOR).
+
+> Muestre los resultados en una tabla de verdad extendida.
+
+Estructura del programa:
+
+> Ingreso de dos números en sistema decimal.
+
+> Conversión de los número al sistema binario.
+
+> Igualación de la longitud de ambos binarios.
+
+> Aplicación de operaciones lógicas (AND, OR, XOR).
+
+> Impresión de una tabla de verdad extendida con los resultados.
+
+
+Contenidos que integra:
+
+> Álgebra de Boole: sistema matemático que usa operaciones lógicas (AND, OR, XOR, NOT) con valores binarios.
+
+> Sistema Binario: base numérica utilizada en sistemas digitales. Cada dígito puede ser 0 o 1.
+
+> Conversión Decimal-Binario: se convierte el número decimal a binario dividiendo por 2 sucesivamente.
+
+> Tablas de verdad de las operaciones usadas:
+
+![alt text]({40D709CC-8620-4213-8626-4EBA9005F0D8}.png)
+
+> Condicionales y ciclos en Python
+
+> Complemento con IA (ChatGPT)
+
+
+
+Durante el desarrollo del proyecto se utilizó ChatGPT como herramienta de soporte para:
+
+Verificar la validez de los conceptos matemáticos aplicados.
+
+
+
