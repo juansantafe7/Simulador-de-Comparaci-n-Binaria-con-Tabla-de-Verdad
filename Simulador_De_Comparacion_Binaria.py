@@ -48,6 +48,31 @@ if opcion_a_convertir == 1:
 
 # 6. Conversion a Octal (Juan)
 
+elif opcion_a_convertir == 2:
+    print("=== Conversión manual de entero a octal ===\n")
+    if numero_a_convertir == 0:
+        print("El número octal de 0 es: 0")
+    elif numero_a_convertir < 0:
+        octal = ""
+        numero_a_convertir = -numero_a_convertir
+
+        while numero_a_convertir > 0:
+            residuo = numero_a_convertir % 8
+            octal = str(residuo) + octal
+            numero_a_convertir = numero_a_convertir // 8
+
+        octal = "-" + octal
+        print("El número octal equivalente es:", octal)
+    else:
+        octal = ""
+        while numero_a_convertir > 0:
+            residuo = numero_a_convertir % 8
+            octal = str(residuo) + octal
+            numero_a_convertir = numero_a_convertir // 8
+
+        print("El número octal equivalente es:", octal)
+
+
 # 7. Mostrar resultado
 
 
