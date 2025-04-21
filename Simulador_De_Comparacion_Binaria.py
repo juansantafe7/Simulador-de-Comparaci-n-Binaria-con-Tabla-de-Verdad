@@ -13,7 +13,7 @@ def mostrar_mensaje(a_convertir, opcion, result):
 
 print("Conversor de numeros base 10 a otro sistemas numérico")
 # 1. Ingreso de datos
-numero_a_convertir = (input("Ingrese un numero entero:\n"))
+numero_a_convertir = (input("Ingrese un numero entero:\n"))    #numero_original = int(numero_a_convertir)
 
 # 2. Validaciones (validamos que sea un numero)
 while not (numero_a_convertir.isdigit() or (numero_a_convertir[0] == "-" and numero_a_convertir[1:].isdigit())):
@@ -29,7 +29,7 @@ es_negativo = numero_a_convertir < 0
 # de esta manera guardamos el original para futuras operaciones
 numero_a_convertir_aux = (-numero_a_convertir) if es_negativo else numero_a_convertir
 
-# 3. Selector de conversor
+# 3. Selector de conversor            # se repite el codigo de inversion
 print("Ingresa el numero de la opción a la que quieres convertir")
 print("1) Base 2")
 print("2) Base 8")

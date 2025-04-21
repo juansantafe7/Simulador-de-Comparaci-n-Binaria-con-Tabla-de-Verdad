@@ -1,45 +1,52 @@
-Simulador de Comparación Binaria con Tabla de Verdad
+Conversor de Números en Base 10 a Otros Sistemas Numéricos
+Este proyecto es un conversor manual que permite transformar números enteros en base 10 a otras bases numéricas: binario (base 2), octal (base 8) y hexadecimal (base 16), sin utilizar funciones de conversión integradas de Python como bin(), oct() o hex().
 
-Desarrollo de un programa que permita al usuario ingresar dos números enteros del sistema decimal, los convierta a binario, y luego:
+🧠 ¿Cómo funciona?
+El programa sigue los siguientes pasos:
 
-> Compare cada bit usando operaciones lógicas (AND, OR, XOR).
+Ingreso de datos:
+Solicita al usuario ingresar un número entero.
 
-> Muestre los resultados en una tabla de verdad extendida.
+Validación:
+Verifica que el valor ingresado sea un número entero válido, incluyendo números negativos.
 
-Estructura del programa:
+Selección de base de conversión:
+El usuario elige una opción de conversión entre:
 
-> Ingreso de dos números en sistema decimal.
+1: Binario
 
-> Conversión de los número al sistema binario.
+2: Octal
 
-> Igualación de la longitud de ambos binarios.
+3: Hexadecimal
 
-> Aplicación de operaciones lógicas (AND, OR, XOR).
+Conversión manual:
+Dependiendo de la opción seleccionada, el programa realiza la conversión al sistema numérico deseado usando operaciones matemáticas básicas (división y módulo).
 
-> Impresión de una tabla de verdad extendida con los resultados.
+Resultado:
+Se imprime en pantalla el número convertido.
 
+🧪 Ejemplo de uso
 
-Contenidos que integra:
+Ingrese un numero entero:
+42
+Ingresa el numero de la opción a la que quieres convertir:
+1) Base 2
+2) Base 8
+3) Base 16
+1
+El número binario equivalente es: 101010
 
-> Álgebra de Boole: sistema matemático que usa operaciones lógicas (AND, OR, XOR, NOT) con valores binarios.
+🧑‍💻 Autores
+Conversión a Binario – Fabricio Adriel Lopez
 
-> Sistema Binario: base numérica utilizada en sistemas digitales. Cada dígito puede ser 0 o 1.
+Conversión a Octal – Juan Cruz Leal
 
-> Conversión Decimal-Binario: se convierte el número decimal a binario dividiendo por 2 sucesivamente.
+Conversión a Hexadecimal - Gabriel 
 
-> Tablas de verdad de las operaciones usadas:
+Validaciones  – Gaston lell
 
-![alt text]({40D709CC-8620-4213-8626-4EBA9005F0D8}.png)
+Reconimientos:
 
-> Condicionales y ciclos en Python
-
-> Complemento con IA (ChatGPT)
-
-
-
-Durante el desarrollo del proyecto se utilizó ChatGPT como herramienta de soporte para:
-
-Verificar la validez de los conceptos matemáticos aplicados.
-
+Utilizamos la IA de chaT GPT para testear partes del codigo y tambien nos ayudo a encontrar la forma de validar si un el valor cargado por el usuario es un numero o no (isdigit)
 
 
