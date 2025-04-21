@@ -37,8 +37,16 @@ Ingresa el numero de la opción a la que quieres convertir:
 El número binario equivalente es: 101010
 
 🧑‍💻 Autores
-Conversión a Binario – Fabricio
+Conversión a Binario – Fabricio Adriel Lopez
 
-Conversión a Octal – Juan
+Conversión a Octal – Juan Cruz Leal
 
-Conversión a Hexadecimal – Gabi
+Conversión a Hexadecimal - Gabriel 
+
+Validaciones  – Gaston lell
+
+Reconimientos:
+
+Utilizamos la IA de chaT GPT para testear partes del codigo y tambien nos ayudo a encontrar la forma de validar si un el valor cargado por el usuario es un numero o no (isdigit)
+
+
