@@ -98,7 +98,7 @@ elif opcion_a_convertir == 2:
         print("El número octal equivalente es:", octal)
 
 
-# 7. Mostrar resultado
+# 7. Mostrar resultado        # Poner mensaje de error para entradas vacias
 
 
 
