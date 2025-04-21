@@ -99,6 +99,10 @@ elif opcion_a_convertir == 2:
 
 
 # 7. Mostrar resultado        # Poner mensaje de error para entradas vacias    # y agregar opcion para finalizar
+#opcion_a_convertir = int(input("Seleccione una opción de conversión (1) Binario, (2) Octal, (3) Hexadecimal, o 0 para salir:\n"))
+#"if opcion_a_convertir == 0:
+    #print("Saliendo del programa...")
+    #exit()"
 
 
 
