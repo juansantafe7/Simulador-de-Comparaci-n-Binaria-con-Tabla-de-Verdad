@@ -7,14 +7,14 @@ while not (numero_a_convertir.isdigit() or (numero_a_convertir[0] == "-" and num
     numero_a_convertir = input("Error: Por favor, ingresa un número entero válido:\n")
 
 
-# 3. Selector de conversor
+# 3. Selector de conversor            # se repite el codigo de inversion
 print("Ingresa el numero de la opción a la que quieres convertir")
 print("1) Base 2")
 print("2) Base 8")
 print("3) Base 16")
 opcion_a_convertir = int(input(""))
 
-while opcion_a_convertir != 1 and opcion_a_convertir != 2 and opcion_a_convertir != 3:
+while opcion_a_convertir != 1 and opcion_a_convertir != 2 and opcion_a_convertir != 3:        # not in [1,2,3] 
    print("La opción ingresada es incorrecta")
    opcion_a_convertir = int(input("Ingrese 1, 2 o 3:\n"))
    
@@ -98,7 +98,7 @@ elif opcion_a_convertir == 2:
         print("El número octal equivalente es:", octal)
 
 
-# 7. Mostrar resultado        # Poner mensaje de error para entradas vacias
+# 7. Mostrar resultado        # Poner mensaje de error para entradas vacias    # y agregar opcion para finalizar
 
 
 
