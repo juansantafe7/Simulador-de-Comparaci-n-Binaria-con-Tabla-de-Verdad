@@ -1,6 +1,6 @@
 print("Conversor de numeros base 10 a otro sistemas numérico")
 # 1. Ingreso de datos
-numero_a_convertir = (input("Ingrese un numero entero:\n"))
+numero_a_convertir = (input("Ingrese un numero entero:\n"))    #numero_original = int(numero_a_convertir)
 
 # 2. Validación
 while not (numero_a_convertir.isdigit() or (numero_a_convertir[0] == "-" and numero_a_convertir[1:].isdigit())):
