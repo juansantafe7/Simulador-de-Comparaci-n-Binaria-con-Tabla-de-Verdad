@@ -12,6 +12,7 @@ def mostrar_mensaje(a_convertir, opcion, result):
 
 # contador de continuaciones
 contador = 0
+# utilizo el bucle para repetir hasta que el usuario decida salir del programa
 while True:
     print("Conversor de numeros base 10 a otro sistemas numérico")
     # 1. Ingreso de datos
