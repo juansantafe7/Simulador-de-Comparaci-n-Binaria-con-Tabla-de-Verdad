@@ -93,6 +93,7 @@ while True:
         else:
             print("La opción ingresada no es correcta")
 
+    # Continuar convirtiendo (Francisco)
     print("\nDesea continuar? s/n")
     continuar = input()
     if continuar.lower() == "s":
