@@ -57,6 +57,14 @@ while True:
                 residuo = numero_a_convertir_aux % 2
                 binario = str(residuo) + binario
                 numero_a_convertir_aux = numero_a_convertir_aux // 2
+            
+            if es_negativo:
+                # Mostrar el complemento a 2 (asumimos 8 bits)
+                bits = 8
+                num_binario = bin(int(binario, 2))[2:].zfill(bits)  # rellena con ceros
+                complemento_1 = ''.join('1' if b == '0' else '0' for b in num_binario)
+                complemento_2 = bin(int(complemento_1, 2) + 1)[2:].zfill(bits)
+                print(f"El Complemento a 2 en {bits} bits: {complemento_2}")
 
             mostrar_mensaje(numero_a_convertir, opcion_a_convertir, f"-{binario}" if es_negativo else binario)
 
